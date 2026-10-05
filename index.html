@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Join Our Telegram</title>
+
+    <link rel="stylesheet" href="style.css">
+    <!-- Meta Pixel Code -->
+    <script>
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '28726661380296728');
+        fbq('track', 'PageView');
+        document.addEventListener('click', function(e) {
+            var button = e.target.closest('a, button');
+
+            if (!button) return;
+
+            var text = button.innerText.trim().toLowerCase();
+
+            if (
+                text.includes('join telegram') ||
+                text.includes('subscribe')
+            ) {
+                fbq('track', 'Lead');
+            }
+        });
+    </script>
+    <noscript></noscript>
+    <!-- End Meta Pixel Code -->
+</head>
+
+<body>
+
+    <!-- Animated Background -->
+    <div class="background">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+
+        <div class="grid"></div>
+
+        <div class="particles">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+
+    <!-- Main Content -->
+    <main class="container">
+
+        <!-- Circular Photo -->
+        <div class="profile-wrapper">
+
+            <div class="ring ring-one"></div>
+            <div class="ring ring-two"></div>
+
+            <div class="profile">
+                <img src="mizan.jpeg" Profile ">
+            </div>
+
+        </div>
+
+
+        <!-- Heading -->
+        <h1>
+            JOIN OUR
+            <span>TELEGRAM</span>
+        </h1>
+
+
+        <p class="subtitle ">
+            Join our exclusive Telegram community and stay connected with the latest updates.
+        </p>
+
+
+        <!-- Button -->
+        <a href="https://t.me/+iAGBFL0FbSc1ZWQ1 " class="telegram-btn " id="join-telegram ">
+
+    <span class="telegram-icon ">➤</span>
+
+    <span>JOIN TELEGRAM</span>
+
+    <span class="arrow ">→</span>
+
+</a>
+
+
+        <!-- Small Info -->
+        <div class="members ">
+            <div class="avatars ">
+                <span>●</span>
+                <span>●</span>
+                <span>●</span>
+            </div>
+
+            <p>
+                <strong>5,000+</strong> members already joined
+            </p>
+        </div>
+
+
+        <!-- Bottom Cards -->
+        <div class="features ">
+
+            <div class="feature ">
+                <div class="feature-icon ">⚡</div>
+                <h3>Fast Updates</h3>
+                <p>Get important updates directly.</p>
+            </div>
+
+            <div class="feature ">
+                <div class="feature-icon ">🔒</div>
+                <h3>Private Community</h3>
+                <p>A dedicated Telegram community.</p>
+            </div>
+
+            <div class="feature ">
+                <div class="feature-icon ">🚀</div>
+                <h3>Stay Connected</h3>
+                <p>Don't miss new announcements.</p>
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <script src="script.js "></script>
+
+</body>
+
+</html>
